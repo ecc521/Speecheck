@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Speecheck</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This application uses your microphone so that it can detect how fast you are speaking. This app does not store or log audio data.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This application uses speech recognition so that it can detect how fast you are speaking. This app does not store or log audio data.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -33,11 +39,8 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
-	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>This application uses speech recognition so that it can detect how fast you are speaking. This app does not store or log audio data.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>This application uses your microphone so that it can detect how fast you are speaking. This app does not store or log audio data.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
